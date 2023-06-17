@@ -1,11 +1,11 @@
-About r-mosaic
-==============
+About r-mosaic-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mosaic-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ProjectMOSAIC/mosaic, https://www.mosaic-web.org/mosaic/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mosaic-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data sets and utilities from Project MOSAIC (<http://www.mosaic-web.org>) used to teach mathematics, statistics, computation and modeling.  Funded by the NSF, Project MOSAIC is a community of educators working to tie together aspects of quantitative work that students in science, technology, engineering and mathematics will need in their professional lives, but which are usually taught in isolation, if at all.
 
