@@ -1,4 +1,4 @@
-{% set version = "1.8.4.2" %}
+{% set version = "1.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mosaic_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mosaic/mosaic_{{ version }}.tar.gz
-  sha256: 8ac9d29d551f8c2c3e8c3351104d059dde529fe17f4f2961529694bacf9a778a
+  sha256: 470c4deb0a6b4990654aec05c36c152ce001f9c915e6062b4db46c49b9c2cdb7
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
