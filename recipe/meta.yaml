@@ -1,4 +1,4 @@
-{% set version = "1.9.0" %}
+{% set version = "1.9.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mosaic_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mosaic/mosaic_{{ version }}.tar.gz
-  sha256: 470c4deb0a6b4990654aec05c36c152ce001f9c915e6062b4db46c49b9c2cdb7
+  sha256: 94d3e200ea84aeffa15eae4a2be977aef1f59df9cfeae071ef25ff58de1ff050
 
 build:
   merge_build_host: true  # [win]
