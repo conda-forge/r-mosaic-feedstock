@@ -1,4 +1,4 @@
-{% set version = "1.9.1" %}
+{% set version = "1.9.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mosaic_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mosaic/mosaic_{{ version }}.tar.gz
-  sha256: 94d3e200ea84aeffa15eae4a2be977aef1f59df9cfeae071ef25ff58de1ff050
+  sha256: 1e56bca7f331bb2a2943a09ae9f36c35f6e69d71f6741d6dd56e8d370db75e1e
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
